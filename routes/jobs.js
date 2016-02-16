@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var Job = require('../models/job');
 var User = require('../models/user');
-var apikey = process.env.INDEED_KEY || '7726699244359231';
+var apikey = process.env.INDEED_KEY;
 var api = require('indeed-api').getInstance(apikey);
 
 var authenticate = function(req, res, next) {

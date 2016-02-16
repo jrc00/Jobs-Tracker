@@ -1,11 +1,6 @@
 0 info it worked if it ends with ok
-<<<<<<< HEAD
 1 verbose cli [ '/Users/jeffcarter/.nvm/versions/node/v5.1.1/bin/node',
 1 verbose cli   '/Users/jeffcarter/.nvm/versions/node/v5.1.1/bin/npm',
-=======
-1 verbose cli [ '/Users/joscelyn/.nvm/versions/node/v5.1.1/bin/node',
-1 verbose cli   '/Users/joscelyn/.nvm/versions/node/v5.1.1/bin/npm',
->>>>>>> Jos
 1 verbose cli   'start' ]
 2 info using npm@3.3.12
 3 info using node@v5.1.1
@@ -14,43 +9,25 @@
 6 silly lifecycle jobs@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle jobs@0.0.0~start: jobs@0.0.0
 8 verbose lifecycle jobs@0.0.0~start: unsafe-perm in lifecycle true
-<<<<<<< HEAD
-9 verbose lifecycle jobs@0.0.0~start: PATH: /Users/jeffcarter/.nvm/versions/node/v5.1.1/lib/node_modules/npm/bin/node-gyp-bin:/Users/jeffcarter/ga/wdi/portfolio/projects/project-3/Jobs-Tracker/node_modules/.bin:/Users/jeffcarter/.rbenv/shims:/Users/jeffcarter/.nvm/versions/node/v5.1.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.4/bin
-10 verbose lifecycle jobs@0.0.0~start: CWD: /Users/jeffcarter/ga/wdi/portfolio/projects/project-3/Jobs-Tracker
-=======
-9 verbose lifecycle jobs@0.0.0~start: PATH: /Users/joscelyn/.nvm/versions/node/v5.1.1/lib/node_modules/npm/bin/node-gyp-bin:/Users/joscelyn/GA_UNIT_3/project_3/OperationBrownPaperBag/Jobs-Tracker/node_modules/.bin:/Users/joscelyn/.rbenv/shims:/Users/joscelyn/.nvm/versions/node/v5.1.1/bin:/usr/local/bin:/Users/joscelyn/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin
-10 verbose lifecycle jobs@0.0.0~start: CWD: /Users/joscelyn/GA_UNIT_3/project_3/OperationBrownPaperBag/Jobs-Tracker
->>>>>>> Jos
+9 verbose lifecycle jobs@0.0.0~start: PATH: /Users/jeffcarter/.nvm/versions/node/v5.1.1/lib/node_modules/npm/bin/node-gyp-bin:/Users/jeffcarter/ga/wdi/portfolio/projects/Jobs-Tracker/node_modules/.bin:/Users/jeffcarter/.rbenv/shims:/Users/jeffcarter/.nvm/versions/node/v5.1.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.4/bin
+10 verbose lifecycle jobs@0.0.0~start: CWD: /Users/jeffcarter/ga/wdi/portfolio/projects/Jobs-Tracker
 11 silly lifecycle jobs@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle jobs@0.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle jobs@0.0.0~start: Failed to exec start script
 14 verbose stack Error: jobs@0.0.0 start: `node ./bin/www`
 14 verbose stack Exit status 1
-<<<<<<< HEAD
 14 verbose stack     at EventEmitter.<anonymous> (/Users/jeffcarter/.nvm/versions/node/v5.1.1/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
 14 verbose stack     at emitTwo (events.js:87:13)
 14 verbose stack     at EventEmitter.emit (events.js:172:7)
 14 verbose stack     at ChildProcess.<anonymous> (/Users/jeffcarter/.nvm/versions/node/v5.1.1/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-=======
-14 verbose stack     at EventEmitter.<anonymous> (/Users/joscelyn/.nvm/versions/node/v5.1.1/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at EventEmitter.emit (events.js:172:7)
-14 verbose stack     at ChildProcess.<anonymous> (/Users/joscelyn/.nvm/versions/node/v5.1.1/lib/node_modules/npm/lib/utils/spawn.js:24:14)
->>>>>>> Jos
 14 verbose stack     at emitTwo (events.js:87:13)
 14 verbose stack     at ChildProcess.emit (events.js:172:7)
 14 verbose stack     at maybeClose (internal/child_process.js:818:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
 15 verbose pkgid jobs@0.0.0
-<<<<<<< HEAD
-16 verbose cwd /Users/jeffcarter/ga/wdi/portfolio/projects/project-3/Jobs-Tracker
+16 verbose cwd /Users/jeffcarter/ga/wdi/portfolio/projects/Jobs-Tracker
 17 error Darwin 14.5.0
 18 error argv "/Users/jeffcarter/.nvm/versions/node/v5.1.1/bin/node" "/Users/jeffcarter/.nvm/versions/node/v5.1.1/bin/npm" "start"
-=======
-16 verbose cwd /Users/joscelyn/GA_UNIT_3/project_3/OperationBrownPaperBag/Jobs-Tracker
-17 error Darwin 15.0.0
-18 error argv "/Users/joscelyn/.nvm/versions/node/v5.1.1/bin/node" "/Users/joscelyn/.nvm/versions/node/v5.1.1/bin/npm" "start"
->>>>>>> Jos
 19 error node v5.1.1
 20 error npm  v3.3.12
 21 error code ELIFECYCLE

@@ -18,7 +18,8 @@ var app = express();
 var db = require('./db');
 var Job = require("./models/job");
 var User = require("./models/user");
-var uristring = process.env.MONGO_URI || 'mongodb://localhost/jobs';
+var uristring = process.env.MONGO_URI;
+var secret = process.env.SECRET_KEY;
 mongoose.connect(uristring);
 
 // view engine setup
@@ -34,7 +35,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(methodOverride('_method'));
 app.use(session({
-  secret: 'WDI Rocks!',
+  secret: 'secret',
   resave: true,
   saveUninitialized: true
 }));

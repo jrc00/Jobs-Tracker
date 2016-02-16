@@ -45,14 +45,4 @@ router.get('/logout', function(req, res, next) {
   res.redirect('/');
 });
 
-// Restricted page
-router.get('/secret', function(req, res, next) {
-  if (currentUser) {
-    res.render('secret.ejs');
-  }
-  else {
-    res.redirect('/');
-  }
-});
-
 module.exports = router;
