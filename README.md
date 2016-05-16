@@ -1,11 +1,9 @@
 # Jobs Tracker
-Project 3: Easily find, apply and keep track of your job search
-
-General Assembly WDI February 12, 2016 Atlanta, GA
+Easily find, apply and keep track of your job search
 
 ## Links
-* [Main Github Repo](https://github.com/nwepperson/Jobs-Tracker)
-* [Deployed App on Heroku](https://ancient-springs-85300.herokuapp.com/)
+* Jobs Tracker on the web: [https://ancient-springs-85300.herokuapp.com/](https://ancient-springs-85300.herokuapp.com/)
+* Project planning: [Trello board](https://trello.com/b/OBrTAAQH)
 
 ## Project Notes
 ### User Stories
